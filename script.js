@@ -27,8 +27,8 @@ $(window).on("load resize", function () {
     $("#content").toggle();
   });
 });
-$(document).keydown(function (e) {
-  if (e.which === 123) {
-    return false;
-  }
-});
+// $(document).keydown(function (e) {
+//   if (e.which === 123) {
+//     return false;
+//   }
+// });
