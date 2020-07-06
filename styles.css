@@ -1,0 +1,169 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.main-bg {
+  background-image: url("./images/CYPECAD.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 90px;
+}
+.nav-item a:hover {
+  color: #097bac !important;
+  border-bottom: 2px solid #097bac;
+}
+.custom-navbar .nav-link {
+  padding: 2.2rem 1.3rem !important;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #fff;
+  border-bottom: 0;
+  margin-left: -20px;
+  margin-bottom: -20px;
+  z-index: 1;
+}
+.card-widget {
+  margin: 2% 0 2% 0;
+  padding: 6% 6% 6% 6%;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 100%;
+}
+.btn-primary {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #fa7d11;
+  border-radius: 10px 10px 10px 10px;
+  padding: 02.5% 09% 02.5% 9%;
+  border-color: #fa7d11;
+}
+.btn-secondary,
+.btn-secondary:hover {
+  fill: #fa7d11;
+  color: #fa7d11;
+  background-color: rgba(250, 125, 17, 0);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 2% 09% 2% 9%;
+  border-color: #fa7d11;
+}
+.btn-primary:hover {
+  background-color: #ffaa00;
+  border-color: #ffaa00;
+}
+.footer p::first-letter {
+  padding-left: 15px;
+}
+.footer .list-group-item {
+  border-color: #fff;
+}
+.navbar-toggler {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.navbar-brand {
+  width: 250px;
+  padding-top: 1.3rem;
+  padding-left: 1.5rem;
+  margin-right: 0;
+}
+@media (max-width: 731px) {
+  .main-bg {
+    height: 250px;
+  }
+}
+@media (max-width: 767px) {
+  .card-widget {
+    height: auto;
+  }
+}
+@media (max-width: 991px) {
+  .main-bg {
+    margin-top: 75px;
+  }
+  .navbar-brand {
+    padding-top: 0.7rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1085px) {
+  .custom-navbar .nav-link {
+    padding: 2.2rem 1rem !important;
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 992px) {
+  .shape {
+    width: 0;
+    height: 0;
+    border-bottom: 94px solid #343a40;
+    border-left: 185px solid transparent;
+  }
+  /* .custom-navbar::before {
+    position: absolute;
+    top: 0;
+    left: -35px;
+    z-index: 1;
+    display: block;
+    width: 65px;
+    height: 100%;
+    background-color: #343a40;
+    content: " ";
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+  }
+  .navbar-brand::after {
+    position: absolute;
+    top: 0;
+    right: -35px;
+    z-index: 1;
+    display: block;
+    width: 65px;
+    height: 100%;
+    background-color: forestgreen;
+    content: " ";
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+  } */
+}
+
+@media (min-width: 1025px) {
+  /* .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-custom .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  } */
+}
