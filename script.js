@@ -23,7 +23,12 @@ $(window).on("load resize", function () {
     $dropdown.off("mouseenter mouseleave");
   }
   $("#content").hide();
-  $("#seecontent").click(function(){
+  $("#seecontent").click(function () {
     $("#content").toggle();
   });
+});
+$(document).keydown(function (e) {
+  if (e.which === 123) {
+    return false;
+  }
 });
